@@ -1,0 +1,23 @@
+#------------------------------------------------------------------------------
+# Terrific/TwigExtensionsBundle/Resources/config/services.yml
+# @see Symfony Service Container http://symfony.com/doc/2.0/book/service_container.html
+#------------------------------------------------------------------------------
+
+parameters:
+    terrific_twig_extensions.filler.class: Terrific\TwigExtensionsBundle\Twig\Extension\FillerExtension
+    terrific_twig_extensions.textgenerator.class: Terrific\TwigExtensionsBundle\Twig\Extension\TextGeneratorExtension
+    terrific_twig_extensions.identgenerator.class: Terrific\TwigExtensionsBundle\Twig\Extension\TerrificIdentGenerator
+
+services:
+    terrific.twig.extension.filler:
+        class: %terrific_twig_extensions.filler.class%
+        tags:
+            - { name: twig.extension }
+    terrific.twig.extension.textgenerator:
+        class: %terrific_twig_extensions.textgenerator.class%
+        tags:
+            - { name: twig.extension }
+    terrific.twig.extension.identgenerator:
+        class: %terrific_twig_extensions.identgenerator.class%
+        tags:
+            - { name: twig.extension }
