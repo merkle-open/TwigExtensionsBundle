@@ -1,7 +1,7 @@
 {
     "name"       :"namics/twig-extensions-bundle",
     "description":"",
-    "keywords"   :["frontend", "terrific", "twig"],
+    "keywords"   :["frontend", "terrific", "twig", "helper"],
     "type"       :"symfony-bundle",
     "license"    :"MIT",
     "authors"    :[
