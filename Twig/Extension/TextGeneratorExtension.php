@@ -243,7 +243,6 @@ namespace Terrific\TwigExtensionsBundle\Twig\Extension {
             switch ($format) {
                 case 'txt':
                     $ret = $this->getText($count, $loremipsum);
-                    ;
                     break;
                 case 'plain':
                     $ret = $this->getPlain($count, $loremipsum);
