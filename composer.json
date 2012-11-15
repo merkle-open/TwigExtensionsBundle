@@ -1,0 +1,22 @@
+{
+    "name"       :"namics/twig-extensions-bundle",
+    "description":"",
+    "keywords"   :["frontend", "terrific", "twig"],
+    "type"       :"symfony-bundle",
+    "license"    :"MIT",
+    "authors"    :[
+        {
+            "name":"Namics AG"
+        }
+    ],
+    "require"    :{
+        "symfony/framework-bundle":"2.*",
+        "twig/twig"               :"1.*"
+    },
+    "autoload"   :{
+        "psr-0":{
+            "Terrific\\TwigExtensionsBundle":""
+        }
+    },
+    "target-dir" :"Terrific/TwigExtensionsBundle"
+}

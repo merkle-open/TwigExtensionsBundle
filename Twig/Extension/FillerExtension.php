@@ -127,7 +127,7 @@ namespace Terrific\TwigExtensionsBundle\Twig\Extension {
          */
         public function getName()
         {
-            return "FillerExtension";
+            return "TwigExtensionsBundle_FillerExtension";
         }
 
         /**
